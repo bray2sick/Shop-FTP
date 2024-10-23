@@ -50,7 +50,7 @@ function showImage(imageType) {
     }
 }
 
-// Initialize Magnific Popup
+// Magnific Popup
 $(document).ready(function() {
     $('.full-image a').magnificPopup({
         type: 'image',
@@ -67,7 +67,7 @@ $(document).ready(function() {
 $(document).ready(function () {
     $('.flexslider').flexslider({
         animation: "slide",
-        directionNav: false,
+        directionNav: true,
         controlNav: false,
         slideshow: true,
         slideshowSpeed: 3000, // 3 seconds

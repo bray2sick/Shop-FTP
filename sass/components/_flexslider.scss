@@ -23,3 +23,33 @@
         }
     }
 }
+
+.flex-direction-nav {
+    list-style: none;
+
+    .flex-prev {
+        left: 10px;
+    }
+
+    .flex-next {
+        right: 10px;
+    }
+
+    a {
+        display: block;
+        width: 45px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 10;
+        overflow: hidden;
+        opacity: 0;
+        cursor: pointer;
+        color: #000;
+        text-decoration: none;
+        background: transparent;
+        transition: all 0.3s ease 0.4s;
+        background-repeat: no-repeat;
+        background-size: 20px auto;
+    }
+}
