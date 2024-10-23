@@ -27,11 +27,16 @@
 .grid-item {
     text-align: center;
     text-decoration: $no-text-decoration;
-    position: relative; /* Add this line */
+    position: relative;
 
     img {
         max-width: 100%;
         height: auto;
+        transition: filter 0.3s ease; // Smooth transition for the hover effect
+
+        &:hover {
+            filter: brightness(1.1); // Lighten the image on hover
+        }
     }
 
     .product-name {

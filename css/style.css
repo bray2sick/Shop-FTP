@@ -549,11 +549,15 @@ footer a:hover {
 .grid-item {
   text-align: center;
   text-decoration: none;
-  position: relative; /* Add this line */
+  position: relative;
 }
 .grid-item img {
   max-width: 100%;
   height: auto;
+  transition: filter 0.3s ease;
+}
+.grid-item img:hover {
+  filter: brightness(1.1);
 }
 .grid-item .product-name {
   margin: 0;
