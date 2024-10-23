@@ -1,0 +1,25 @@
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+.mfp-fade.mfp-wrap {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready {
+    opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing {
+    opacity: 0;
+}

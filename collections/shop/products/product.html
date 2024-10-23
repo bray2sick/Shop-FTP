@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+
+    <!-- Title -->
+    <title>PRODUCT</title>
+
+    <!-- Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="../../../images/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../../images/icons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="../../../images/icons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="../../../images/icons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="../../../images/icons/android-chrome-192x192.png" sizes="192x192" type="image/png">
+    <link rel="icon" href="../../../images/icons/android-chrome-512x512.png" sizes="512x512" type="image/png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+    <!-- FlexSlider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css"
+        integrity="sha512-c7jR/kCnu09ZrAKsWXsI/x9HCO9kkpHw4Ftqhofqs+I2hNxalK5RGwo/IAhW3iqCHIw55wBSSCFlm8JP0sw2Zw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css"
+        integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="../../../mainfest.json">
+
+    <!-- Sitemap -->
+    <link rel="sitemap" type="application/xml" href="../../../sitemap.xml">
+
+</head>
+
+<body>
+    <!-- Header + Nav Bar -->
+    <div class="content">
+        <header class="site-header">
+            <img src="../../../images/logo.png" alt="Header Image" />
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="../../../index.html">HOME</a></li>
+                    <li><a href="../../../collections/shop/" class="active">SHOP</a></li>
+                    <li><a href="../../../pages/contact.html">CONTACT</a></li>
+                    <li><a href="../../../pages/terms-info.html">TERMS & INFO</a></li>
+                    <li><a href="../../../cart.html">CART</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- Main -->
+    <main class="product-wrapper">
+        <section class="product-images">
+            <div class="full-image">
+                <a href="../../../images/front.png" id="fullImageLink">
+                    <img id="fullImage" src="../../../images/front.png" alt="Full Product Image">
+                </a>
+            </div>
+            <div class="thumbnail-images">
+                <img src="../../../images/front.png" alt="Product Front Image" class="thumbnail"
+                    onclick="showImage('front')">
+                <img src="../../../images/back.png" alt="Product Back Image" class="thumbnail"
+                    onclick="showImage('back')">
+            </div>
+        </section>
+        <section class="product-details">
+            <h1 id="productName">Product Name</h1>
+            <h2 class="price" id="productPrice"><strong></strong></h2>
+            <div class="sizes">
+                <select id="size" name="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">X-Large</option>
+                    <option value="xx-large">XX-Large</option>
+                    <option value="xxx-large">XXX-Large</option>
+                </select>
+            </div>
+            <button class="add-to-cart">ADD TO CART</button>
+            <p class="product-description">LOREM IPSUM DOLOR SIT AMET, CONSESCTETUR ADIPISCI ELIT. PELLENTESQUE TEMPUS
+                DIGNISSIM PURUS AC GRAVIDA. DUIS ACCUMSAN LIGULA NON ODIO VULPUTATE MOLLIS. SED MATTIS, NISI NON.</p>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a></li>
+            <li> / </li>
+            <li><a href="https://www.twitter.com/" target="_blank">TWITTER</a></li>
+            <li> / </li>
+            <li><a href="https://www.youtube.com/" target="_blank">YOUTUBE</a></li>
+            <li> / </li>
+            <li><a href="../../../pages/newsletter.html">NEWSLETTER</a></li>
+            <li> / </li>
+            <li><a href="#" target="_blank">iOS APP</a></li>
+        </ul>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- FlexSlider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider.js"
+        integrity="sha512-/LtMywMLXZ29TJbETec4e6ndSWPxQDTdsqCud+8Q4IFnKQ1WVlr87r0D5oo9QNO9zuqQNJDmvQxQmvqe8DRYLA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Magnific Popup core JS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js"
+        integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Main Script -->
+    <script src="../../../javascript/script.js"></script>
+</body>
+
+</html>

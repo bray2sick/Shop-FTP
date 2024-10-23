@@ -1,0 +1,25 @@
+.flexslider {
+    max-width: 465px !important;
+    margin: 0 auto !important;
+
+    .slides {
+        img {
+            width: 465px !important;
+            height: 581px !important;
+            object-fit: cover !important;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .flexslider {
+        max-width: 100% !important;
+
+        .slides {
+            img {
+                width: 100% !important;
+                height: auto !important;
+            }
+        }
+    }
+}

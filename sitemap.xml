@@ -1,0 +1,31 @@
+<urlset>
+    <url>
+        <loc>https://bray2sick.github.io/shop-ftp/index.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://bray2sick.github.io/shop-ftp/collections/shop/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://bray2sick.github.io/shop-ftp/pages/contact.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://bray2sick.github.io/shop-ftp/pages/terms-info.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://bray2sick.github.io/shop-ftp/cart.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://bray2sick.github.io/shop-ftp/pages/newsletter.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+</urlset>
