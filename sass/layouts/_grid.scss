@@ -27,6 +27,7 @@
 .grid-item {
     text-align: center;
     text-decoration: $no-text-decoration;
+    position: relative; /* Add this line */
 
     img {
         max-width: 100%;

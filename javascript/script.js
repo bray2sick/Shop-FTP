@@ -10,15 +10,21 @@ function getUrlParameter(name) {
 function updateProductDetails() {
     const productName = getUrlParameter('name');
     const productPrice = getUrlParameter('price');
+    const soldOut = getUrlParameter('soldOut') === 'true';
 
     const productNameElement = document.getElementById('productName');
     const productPriceElement = document.getElementById('productPrice');
+    const addToCartButton = document.getElementById('addToCartButton');
 
     if (productName && productNameElement) {
         productNameElement.textContent = productName;
     }
     if (productPrice && productPriceElement) {
         productPriceElement.textContent = `$${productPrice}`;
+    }
+    if (soldOut && addToCartButton) {
+        addToCartButton.textContent = 'SOLD OUT';
+        addToCartButton.disabled = true;
     }
 }
 
