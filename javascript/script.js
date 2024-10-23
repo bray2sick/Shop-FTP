@@ -74,7 +74,21 @@ $(document).ready(function () {
     });
 });
 
-// Disable right-click
+// Disable Right-click
 document.addEventListener('contextmenu', function (e) {
     e.preventDefault();
+});
+
+// Disable Ctrl+U and Ctrl+Shift+I
+document.onkeydown = function (e) {
+    if (e.ctrlKey && (e.which === 85 || e.which === 73)) {
+        return false;
+    }
+};
+
+// Disable F12 key
+document.addEventListener('keydown', function (event) {
+    if (event.code === 'F12') {
+        event.preventDefault();
+    }
 });
